@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di web tugas XENA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Kupu-kupu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Mata Kuliah</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Sosial Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home" class="banner">
+        <div class="container text-center">
+            <h1>Xena</h1>
+            <p>Percaya Dengan Proses.</p>
+            <a>Semangat</a>
+        </div>
+    </header>
+    
+    <section id="services" class="services">
+        <div class="container text-center">
+            <h2>Mata Kuliah</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="imgperweb.jpg" alt="Service 1" class="service-img">
+                    <h4>PERANCANGAN WEB</h4>
+                    <p>perancangan web,matkul semester 4</p>
+                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="imgbasisdata.jpg" alt="Service 2" class="service-img">
+                    <h4>BASIS DATA</h4>
+                    <p>basisdata,matkul semester 4.</p>
+                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+                <div class="col-md-4">
+                    <img src="imgrpl.jpg" alt="Service 3" class="service-img">
+                    <h4>REKAYASA PERANGKAT LUNAK</h4>
+                    <p>RPL,matkul semester 4</p>
+                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <h2>about me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>TENTANG XENA</h3>
+                    <ul>
+                        <li>hobi : Menyanyi</li>
+                        <li>Makanan Kesukaan : Ayam kecap</li>
+                        <li>Warna Kesukaan : abu-abu</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="imgsena.jpg" width="150px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="social-media" class="social-media text-center">
+        <h2>Find Us On Social Media</h2>
+        <div class="social-icons">
+            <a href="#"><img src="imgfb.jpg" alt="Facebook"></a>
+            <a href="#"><img src="imgig.jpg" alt="Instagram"></a>
+            <a href="#"><img src="imgyt.jpg" alt="Youtube"></a>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container text-center">
+            <h3>Contact Us</h3>
+            <p>Alamat: JL.Veteran  </p>
+            <p>Phone: 089532027829</p>
+            <p>Email: 2023610044.xena@itp.ac.id</p>
+            <hr>
+            <p>&copy; 2025 Xena</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script>
+        const scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            offset: 50
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.banner {
+    background: url('imgbenner.jpg') no-repeat center center/cover;
+    color: rgb(233, 232, 243);
+    padding: 100px 0;
+    font-family: fantasy;
+}
+
+.services {
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 100px;
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+.about {
+    padding: 80px 0;
+    font-family: monospace;
+    color: #f8f9fa;
+    background-color: #0C0950;
+}
+
+.social-media {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.social-icons img {
+    width: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer .form-control {
+    max-width: 300px;
+    margin: 10px auto;
+}
